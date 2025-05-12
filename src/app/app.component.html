@@ -1,7 +1,10 @@
 <div class="container my-5">
   <!-- Language Switcher -->
   <div class="text-end mb-3">
-    <button class="btn btn-sm btn-outline-primary" (click)="toggleLanguage()">
+    <button class="btn btn-sm btn-outline-primary" 
+            (click)="toggleLanguage()" 
+            [disabled]="isLanguageLoading">
+      <span *ngIf="isLanguageLoading" class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span>
       {{ currentLang === 'en' ? 'Español' : 'English' }}
     </button>
   </div>

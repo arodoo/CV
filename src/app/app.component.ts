@@ -14,6 +14,7 @@ import { LanguageService } from './services/language.service';
 export class AppComponent implements OnInit {
   title = 'CV';
   currentLang: string = 'en';
+  isLanguageLoading = false;
 
   constructor(private languageService: LanguageService) {}
 
@@ -21,6 +22,11 @@ export class AppComponent implements OnInit {
     // Subscribe to language changes
     this.languageService.currentLanguage$.subscribe(lang => {
       this.currentLang = lang;
+    });
+
+    // Subscribe to loading state changes
+    this.languageService.isLoading$.subscribe(isLoading => {
+      this.isLanguageLoading = isLoading;
     });
   }
 
