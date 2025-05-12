@@ -1,18 +1,24 @@
 <div class="container my-5">
-  <div class="row gy-4">
+  <!-- Language Switcher -->
+  <div class="text-end mb-3">
+    <button class="btn btn-sm btn-outline-primary" (click)="toggleLanguage()">
+      {{ currentLang === 'en' ? 'Español' : 'English' }}
+    </button>
+  </div>
 
+  <div class="row gy-4">
     <!-- Sidebar -->
     <div class="col-md-4 order-md-2">
       <div class="sidebar">
         <div class="text-center mb-3">
           <img src="/my-photo.jpg" class="rounded-circle mb-2" width="150" height="150" style="object-fit: cover;"
-            alt="Foto de perfil">
-          <h5>Arodi Emmanuel Haro Palacios</h5>
-          <p class="text-muted">Técnico en Gestión y Desarrollo de Software</p>
+            alt="{{ 'SIDEBAR.PHOTO_ALT' | translate }}">
+          <h5>{{ 'HEADER.NAME' | translate }}</h5>
+          <p class="text-muted">{{ 'SIDEBAR.JOB_TITLE' | translate }}</p>
         </div>
 
         <div class="contact mb-4">
-          <h6 class="section-title">Contacto</h6>
+          <h6 class="section-title">{{ 'SIDEBAR.CONTACT' | translate }}</h6>
           <p><i class="fa-solid fa-envelope"></i> haro.trabajo&#64;hotmail.com</p>
           <p><i class="fa-solid fa-phone"></i> 272-194-02-40</p>
           <p><i class="fa-brands fa-linkedin"></i> <a
@@ -22,7 +28,7 @@
         </div>
 
         <div class="skills mb-4">
-          <h6 class="section-title">Habilidades Técnicas</h6>
+          <h6 class="section-title">{{ 'SIDEBAR.TECHNICAL_SKILLS' | translate }}</h6>
           <ul class="list-unstyled">
             <li>JavaScript, TypeScript, SQL, Git</li>
             <li>Bash, Shell, Angular, NestJS</li>
@@ -32,9 +38,9 @@
         </div>
 
         <div class="languages mb-4">
-          <h6 class="section-title">Idiomas</h6>
-          <p>Español – Nativo</p>
-          <p>Inglés – Fluido / Conversacional / Técnico</p>
+          <h6 class="section-title">{{ 'SIDEBAR.LANGUAGES' | translate }}</h6>
+          <p>{{ 'SIDEBAR.SPANISH' | translate }}</p>
+          <p>{{ 'SIDEBAR.ENGLISH' | translate }}</p>
         </div>
       </div>
     </div>
@@ -43,75 +49,70 @@
     <div class="col-md-8 order-md-1">
       <div class="main-content">
         <div class="header mb-4">
-          <h1 class="mb-0">Arodi Emmanuel Haro Palacios</h1>
-          <p class="text-muted">Desarrollador Web Multiplataforma</p>
+          <h1 class="mb-0">{{ 'HEADER.NAME' | translate }}</h1>
+          <p class="text-muted">{{ 'HEADER.TITLE' | translate }}</p>
         </div>
 
         <div class="profile mb-4">
-          <h5 class="section-title">Perfil Profesional</h5>
-          <p>Desarrollador web multiplataforma con experiencia práctica en Angular, NestJS y demás herramientas web. Participación en proyectos
-          internacionales orientados a soluciones SaaS y plataformas web. Conocimientos técnicos en JavaScript, TypeScript, Java,
-          SQL y librerías como Three.js, GSAP, ORMs para bases de datos, etc. Atención especial al detalle, capacidad de comunicación oral y escrita en inglés y
-          español, y sólida autogestión.</p>
+          <h5 class="section-title">{{ 'MAIN.PROFESSIONAL_PROFILE' | translate }}</h5>
+          <p>{{ 'MAIN.PROFESSIONAL_PROFILE_TEXT' | translate }}</p>
         </div>
 
         <div class="experience mb-4">
-          <h5 class="section-title">Experiencia Laboral</h5>
+          <h5 class="section-title">{{ 'MAIN.WORK_EXPERIENCE' | translate }}</h5>
           <div class="mb-3">
-            <h6>Desarrollador Web – CodyOne</h6>
-            <small class="text-muted">Francia | Septiembre 2024 – Actualidad</small>
+            <h6>{{ 'MAIN.WEB_DEVELOPER' | translate }}</h6>
+            <small class="text-muted">{{ 'MAIN.LOCATION_DATE' | translate }}</small>
             <ul>
-              <li>Desarrollo y mantenimiento de plataformas SaaS y sitios web.</li>
-              <li>Participación en todas las fases del ciclo de desarrollo: planeación, codificación, testing,
-                delivery y soporte post-lanzamiento.</li>
-              <li>Comunicación directa con clientes europeos y trabajo remoto multidisciplinario.</li>
+              <li>{{ 'MAIN.EXPERIENCE_BULLET_1' | translate }}</li>
+              <li>{{ 'MAIN.EXPERIENCE_BULLET_2' | translate }}</li>
+              <li>{{ 'MAIN.EXPERIENCE_BULLET_3' | translate }}</li>
             </ul>
           </div>
         </div>
 
         <div class="education mb-4">
-          <h5 class="section-title">Educación</h5>
-          <p><strong>Técnico Universitario en Gestión y Desarrollo de Software</strong><br>Universidad Tecnológica del
-            Centro de Veracruz (UTCV)</p>
+          <h5 class="section-title">{{ 'MAIN.EDUCATION' | translate }}</h5>
+          <p><strong>{{ 'MAIN.EDUCATION_DEGREE' | translate }}</strong><br>{{ 'MAIN.EDUCATION_INSTITUTION' | translate }}</p>
         </div>
 
         <div class="soft-skills mb-4">
-          <h5 class="section-title">Habilidades Blandas</h5>
+          <h5 class="section-title">{{ 'MAIN.SOFT_SKILLS' | translate }}</h5>
           <ul>
-            <li>Comunicación verbal y escrita</li>
-            <li>Autogestión</li>
-            <li>Atención al detalle</li>
+            <li>{{ 'MAIN.SOFT_SKILL_1' | translate }}</li>
+            <li>{{ 'MAIN.SOFT_SKILL_2' | translate }}</li>
+            <li>{{ 'MAIN.SOFT_SKILL_3' | translate }}</li>
           </ul>
         </div>
 
         <div class="projects">
-          <h5 class="section-title">Proyectos Destacados</h5>
+          <h5 class="section-title">{{ 'MAIN.FEATURED_PROJECTS' | translate }}</h5>
 
           <div class="mb-3">
-            <strong>Mobilitaf</strong> – Aplicación empresarial de viajes compartidos<br>
-            Desarrollo de interfaces, sistema de reseñas, mensajería, agendas, pruebas y seguimiento.<br>
-            <small>PHP, Composer, JS, CSS, HTML</small><br>
+            <strong>Mobilitaf</strong> – {{ 'PROJECTS.MOBILITAF_TITLE' | translate }}<br>
+            {{ 'PROJECTS.MOBILITAF_DESC' | translate }}<br>
+            <small>{{ 'PROJECTS.MOBILITAF_TECH' | translate }}</small><br>
             <a href="https://mobilitaf.com/" target="_blank">mobilitaf.com</a>
           </div>
 
           <div class="mb-3">
-            <strong>Mon Espace Auto</strong> – SaaS para procesos mecánicos (en desarrollo)<br>
-            Autenticación segura, base de datos, módulos, gestión y diseño de UI/UX.<br>
-            <small>PHP, JS, Composer, CSS</small><br>
+            <strong>Mon Espace Auto</strong> – {{ 'PROJECTS.ESA_TITLE' | translate }}<br>
+            {{ 'PROJECTS.ESA_DESC' | translate }}<br>
+            <small>{{ 'PROJECTS.ESA_TECH' | translate }}</small><br>
             <a href="https://mon-espace-auto.com/" target="_blank">mon-espace-auto.com</a>
           </div>
 
           <div class="mb-3">
-            <strong>Zen Family</strong> – Plataforma de control financiero<br>
-            Registro de gastos, activos, deudas, proyecciones. Desarrollado 100% por mí.<br>
-            <small>PHP, JS, HTML, CSS</small><br>
+            <strong>Zen Family</strong> – {{ 'PROJECTS.ZEN_TITLE' | translate }}<br>
+            {{ 'PROJECTS.ZEN_DESC' | translate }}<br>
+            <small>{{ 'PROJECTS.ZEN_TECH' | translate }}</small><br>
             <a href="https://zen-famili.com/" target="_blank">zen-famili.com</a>
           </div>
 
           <div class="mb-3">
-            <strong>Poetry</strong> – SaaS para gestión académica (proyecto personal – en desarrollo)<br>
-            Control de usuarios, suscripciones, inventario, pruebas unitarias y animaciones con Three.js.<br>
-            <small>Angular, Three JS, GSAP</small><br>
+            <strong>Poetry</strong> – {{ 'PROJECTS.POETRY_TITLE' | translate }}<br>
+            {{ 'PROJECTS.POETRY_DESC' | translate }}<br>
+            <small>{{ 'PROJECTS.POETRY_TECH' | translate }}</small><br>
             <a href="https://arodi-portfolio.vercel.app/home" target="_blank">arodi-portfolio.com</a>
           </div>
 

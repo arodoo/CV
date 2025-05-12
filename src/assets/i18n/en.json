@@ -1,0 +1,53 @@
+﻿{
+  "HEADER": {
+    "NAME": "Arodi Emmanuel Haro Palacios",
+    "TITLE": "Multiplatform Web Developer"
+  },
+  "SIDEBAR": {
+    "PHOTO_ALT": "Profile photo",
+    "JOB_TITLE": "Software Development and Management Technician",
+    "CONTACT": "Contact",
+    "TECHNICAL_SKILLS": "Technical Skills",
+    "LANGUAGES": "Languages",
+    "SPANISH": "Spanish - Native",
+    "ENGLISH": "English - Fluent / Conversational / Technical"
+  },
+  "MAIN": {
+    "PROFESSIONAL_PROFILE": "Professional Profile",
+    "PROFESSIONAL_PROFILE_TEXT": "Multiplatform web developer with practical experience in Angular, NestJS and other web tools. Participation in international projects oriented to SaaS solutions and web platforms. Technical knowledge in JavaScript, TypeScript, Java, SQL and libraries such as Three.js, GSAP, ORMs for databases, etc. Special attention to detail, oral and written communication skills in English and Spanish, and solid self-management.",
+    "WORK_EXPERIENCE": "Work Experience",
+    "WEB_DEVELOPER": "Web Developer - CodyOne",
+    "LOCATION_DATE": "France | September 2024 - Present",
+    "EXPERIENCE_BULLET_1": "Development and maintenance of SaaS platforms and websites.",
+    "EXPERIENCE_BULLET_2": "Participation in all phases of the development cycle: planning, coding, testing, delivery and post-launch support.",
+    "EXPERIENCE_BULLET_3": "Direct communication with European clients and multidisciplinary remote work.",
+    "EDUCATION": "Education",
+    "EDUCATION_DEGREE": "University Technician in Software Management and Development",
+    "EDUCATION_INSTITUTION": "Universidad Tecnológica del Centro de Veracruz (UTCV)",
+    "SOFT_SKILLS": "Soft Skills",
+    "SOFT_SKILL_1": "Verbal and written communication",
+    "SOFT_SKILL_2": "Self-management",
+    "SOFT_SKILL_3": "Attention to detail",
+    "FEATURED_PROJECTS": "Featured Projects"
+  },
+  "PROJECTS": {
+    "MOBILITAF_TITLE": "Mobilitaf - Enterprise Ridesharing Application",
+    "MOBILITAF_DESC": "Interface development, review system, messaging, schedules, testing and tracking.",
+    "MOBILITAF_TECH": "PHP, Composer, JS, CSS, HTML",
+    
+    "ESA_TITLE": "Mon Espace Auto - SaaS for mechanical processes (in development)",
+    "ESA_DESC": "Secure authentication, database, modules, management and UI/UX design.",
+    "ESA_TECH": "PHP, JS, Composer, CSS",
+    
+    "ZEN_TITLE": "Zen Family - Financial control platform",
+    "ZEN_DESC": "Recording of expenses, assets, debts, projections. 100% developed by me.",
+    "ZEN_TECH": "PHP, JS, HTML, CSS",
+    
+    "POETRY_TITLE": "Poetry - SaaS for academic management (personal project - in development)",
+    "POETRY_DESC": "User control, subscriptions, inventory, unit testing and animations with Three.js.",
+    "POETRY_TECH": "Angular, Three JS, GSAP"
+  },
+  "LANGUAGE": "Language",
+  "ENGLISH": "English",
+  "SPANISH": "Spanish"
+}

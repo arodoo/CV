@@ -1,0 +1,53 @@
+﻿{
+  "HEADER": {
+    "NAME": "Arodi Emmanuel Haro Palacios",
+    "TITLE": "Desarrollador Web Multiplataforma"
+  },
+  "SIDEBAR": {
+    "PHOTO_ALT": "Foto de perfil",
+    "JOB_TITLE": "Técnico en Gestión y Desarrollo de Software",
+    "CONTACT": "Contacto",
+    "TECHNICAL_SKILLS": "Habilidades Técnicas",
+    "LANGUAGES": "Idiomas",
+    "SPANISH": "Español - Nativo",
+    "ENGLISH": "Inglés - Fluido / Conversacional / Técnico"
+  },
+  "MAIN": {
+    "PROFESSIONAL_PROFILE": "Perfil Profesional",
+    "PROFESSIONAL_PROFILE_TEXT": "Desarrollador web multiplataforma con experiencia práctica en Angular, NestJS y demás herramientas web. Participación en proyectos internacionales orientados a soluciones SaaS y plataformas web. Conocimientos técnicos en JavaScript, TypeScript, Java, SQL y librerías como Three.js, GSAP, ORMs para bases de datos, etc. Atención especial al detalle, capacidad de comunicación oral y escrita en inglés y español, y sólida autogestión.",
+    "WORK_EXPERIENCE": "Experiencia Laboral",
+    "WEB_DEVELOPER": "Desarrollador Web  CodyOne",
+    "LOCATION_DATE": "Francia | Septiembre 2024  Actualidad",
+    "EXPERIENCE_BULLET_1": "Desarrollo y mantenimiento de plataformas SaaS y sitios web.",
+    "EXPERIENCE_BULLET_2": "Participación en todas las fases del ciclo de desarrollo: planeación, codificación, testing, delivery y soporte post-lanzamiento.",
+    "EXPERIENCE_BULLET_3": "Comunicación directa con clientes europeos y trabajo remoto multidisciplinario.",
+    "EDUCATION": "Educación",
+    "EDUCATION_DEGREE": "Técnico Universitario en Gestión y Desarrollo de Software",
+    "EDUCATION_INSTITUTION": "Universidad Tecnológica del Centro de Veracruz (UTCV)",
+    "SOFT_SKILLS": "Habilidades Blandas",
+    "SOFT_SKILL_1": "Comunicación verbal y escrita",
+    "SOFT_SKILL_2": "Autogestión",
+    "SOFT_SKILL_3": "Atención al detalle",
+    "FEATURED_PROJECTS": "Proyectos Destacados"
+  },
+  "PROJECTS": {
+    "MOBILITAF_TITLE": "Mobilitaf - Aplicación empresarial de viajes compartidos",
+    "MOBILITAF_DESC": "Desarrollo de interfaces, sistema de reseñas, mensajería, agendas, pruebas y seguimiento.",
+    "MOBILITAF_TECH": "PHP, Composer, JS, CSS, HTML",
+    
+    "ESA_TITLE": "Mon Espace Auto - SaaS para procesos mecánicos (en desarrollo)",
+    "ESA_DESC": "Autenticación segura, base de datos, módulos, gestión y diseño de UI/UX.",
+    "ESA_TECH": "PHP, JS, Composer, CSS",
+    
+    "ZEN_TITLE": "Zen Family - Plataforma de control financiero",
+    "ZEN_DESC": "Registro de gastos, activos, deudas, proyecciones. Desarrollado 100% por mí.",
+    "ZEN_TECH": "PHP, JS, HTML, CSS",
+    
+    "POETRY_TITLE": "Poetry - SaaS para gestión académica (proyecto personal - en desarrollo)",
+    "POETRY_DESC": "Control de usuarios, suscripciones, inventario, pruebas unitarias y animaciones con Three.js.",
+    "POETRY_TECH": "Angular, Three JS, GSAP"
+  },
+  "LANGUAGE": "Idioma",
+  "ENGLISH": "Inglés",
+  "SPANISH": "Español"
+}
